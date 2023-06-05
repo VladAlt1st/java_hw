@@ -1,6 +1,5 @@
 package org.ListSetHW2023_05_30;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,10 +10,8 @@ public class ListTask {
         System.out.println(revers(arr));
     }
 
-    /*
-     * Напишите метод, который принимает массив int и возвращает ArrayList,
-     * содержащий все уникальные элементы исходного массива, сохраняя их порядок.
-     * */
+    // TODO:  Напишите метод, который принимает массив int и возвращает ArrayList,
+    //     содержащий все уникальные элементы исходного массива, сохраняя их порядок.
     private static List<Integer> removeDuplicates(int[] arr) {
         List<Integer> list = new ArrayList<>();
 
@@ -28,10 +25,8 @@ public class ListTask {
         //return Arrays.stream(arr).distinct().toList();
     }
 
-    /*
-    * Напишите метод, который принимает массив int и возвращает ArrayList,
-    * содержащий элементы исходного массива в обратном порядке.
-    * */
+    // TODO:  Напишите метод, который принимает массив int и возвращает ArrayList,
+    //     содержащий элементы исходного массива в обратном порядке.
     private static List<Integer> revers(int[] arr) {
         List<Integer> list = new ArrayList<>();
 

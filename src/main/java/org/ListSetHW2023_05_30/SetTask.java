@@ -10,10 +10,10 @@ public class SetTask {
         System.out.println(findIntersections(first, second));
     }
 
-    /*
-    * Напишите метод, который принимает два массива int и возвращает Set,
-    * содержащий элементы, которые присутствуют и в первом, и во втором массивах.
-    * */
+
+    // TODO:  Напишите метод, который принимает два массива int и возвращает Set,
+    //     содержащий элементы, которые присутствуют и в первом, и во втором массивах.
+
     private static Set<Integer> findIntersections(int[] first, int[] second) {
         Set<Integer> set = new HashSet<>();
         Set<Integer> tmp = new HashSet<>();
@@ -32,10 +32,8 @@ public class SetTask {
         return set;
     }
 
-    /*
-    * Напишите метод, который принимает массив int и возвращает количество уникальных элементов в этом массиве,
-    * используя Set для хранения уникальных значений.
-    * */
+    // TODO:  Напишите метод, который принимает массив int и возвращает количество уникальных элементов в этом массиве,
+    //     используя Set для хранения уникальных значений.
     private static int countUnique(int[] arr) {
         Set<Integer> set = new HashSet<>();
 
